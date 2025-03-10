@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atividade">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Atividade">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<manifest xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools">-->
+<!--    <androidx.cardview.widget.CardView-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        app:cardElevation="4dp"-->
+<!--        app:cardCornerRadius="8dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="16dp"-->
+<!--            android:gravity="center">-->
+
+<!--            &lt;!&ndash; Logo &ndash;&gt;-->
+<!--            <ImageView-->
+<!--                android:id="@+id/logo"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:src="@drawable/android_logo" />  &lt;!&ndash; Substitua pelo seu recurso de imagem &ndash;&gt;-->
+<!--            android:contentDescription="Logo"/>-->
+
+<!--            &lt;!&ndash; Nome do Usuário &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/nome"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Seu Nome"-->
+<!--                android:textSize="24sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:gravity="center"/>-->
+
+<!--            &lt;!&ndash; Função do Usuário &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/cargo"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:text="Sua Função"-->
+<!--                android:textSize="18sp"-->
+<!--                android:gravity="center"/>-->
+
+<!--            &lt;!&ndash; Telefone &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:gravity="center">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="24dp"-->
+<!--                    android:layout_height="24dp"-->
+<!--                    android:src="@drawable/phone_24dp_1f1f1f" /> &lt;!&ndash; Substitua pelo seu ícone de telefone &ndash;&gt;-->
+<!--                android:contentDescription="Ícone de telefone"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/telefone"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="8dp"-->
+<!--                    android:text="(00) 00000-0000"-->
+<!--                    android:textSize="16sp"/>-->
+<!--            </LinearLayout>-->
+
+<!--            &lt;!&ndash; Rede Social &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:gravity="center">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="24dp"-->
+<!--                    android:layout_height="24dp"-->
+<!--                    android:src="@drawable/share_24dp_1f1f1f"/>  &lt;!&ndash; Substitua pelo seu ícone de rede social &ndash;&gt;-->
+<!--                android:contentDescription="Ícone de rede social"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/rede"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="8dp"-->
+<!--                    android:text="@TestNaldo"-->
+<!--                    android:textSize="16sp"/>-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:gravity="center">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="24dp"-->
+<!--                    android:layout_height="24dp"-->
+<!--                    android:src="@drawable/email_24dp_1f1f1f"/>  &lt;!&ndash; Substitua pelo seu ícone de rede social &ndash;&gt;-->
+<!--                android:contentDescription="Ícone do email"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/email"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="8dp"-->
+<!--                    android:text="xxxxxxxxx@gmail.com"-->
+<!--                    android:textSize="16sp"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--</manifest>-->
